@@ -129,7 +129,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Enter Your Email"
-                className=" bg-transparent text-sm text-white placeholder:text-text-muted px-3 py-3.5 outline-none"
+                className="flex-1 w-full bg-transparent text-sm text-white placeholder:text-text-muted px-3 py-3.5 outline-none"
               />
               <button
                 className="px-4 py-3.5 text-white hover:text-primary transition-colors"
