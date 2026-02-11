@@ -20,7 +20,7 @@ Designed for the Arrivo Frontend Engineer Assessment.
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Icons**: Custom SVG icons & Lucide React
 - **Animation**: CSS Transitions
-- **Deployment**: Vercel (Optional)
+- **Deployment**: Vercel
 
 ## Rendering Strategy
 
@@ -75,3 +75,13 @@ This hybrid approach ensures excellent **Core Web Vitals** (LCP, CLS) while main
 - `/components`: Reusable UI components (grouped by feature/page).
 - `/public`: Static assets (images, icons).
 - `/styles`: Global styles and Tailwind configuration.
+
+## Screenshots
+
+![Screenshot 1](/screenshots/screenshot-01.png)
+![Screenshot 2](/screenshots/screenshot-02.png)
+![Screenshot 3](/screenshots/screenshot-03.png)
+![Screenshot 4](/screenshots/screenshot-04.png)
+![Screenshot 5](/screenshots/screenshot-05.png)
+![Screenshot 6](/screenshots/screenshot-06.png)
+![Screenshot 7](/screenshots/screenshot-07.png)
