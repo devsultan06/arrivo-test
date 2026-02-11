@@ -20,6 +20,8 @@ type PageProps = {
 
 export default async function PropertyDetailPage({ params }: PageProps) {
   const resolvedParams = await params;
+  // Simulate network delay to show loading state
+  await new Promise((resolve) => setTimeout(resolve, 2000));
   const property = properties.find((p) => p.id === resolvedParams.id);
 
   if (!property) {
@@ -32,7 +34,7 @@ export default async function PropertyDetailPage({ params }: PageProps) {
     "@type": "Accommodation",
     name: property.title,
     description: property.description,
-    image: property.gallery || [property.image], 
+    image: property.gallery || [property.image],
     numberOfRooms: property.bedrooms,
     petsAllowed: true,
     address: {
