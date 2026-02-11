@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Lexend", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-text-primary antialiased min-h-screen;
+  }
+}
+
+.box {
+  border-radius: 12px;
+  border: 1px solid var(--Grey-15, #262626);
+  background: var(--Grey-08, #141414);
+  box-shadow: 0 0 0 10px #191919;
+}
+
+.step-card {
+  border-radius: 0 12px 12px 12px;
+  border: 1px solid #262626;
+  background: linear-gradient(
+    121deg,
+    #703bf7 -49.01%,
+    rgba(112, 59, 247, 0) 13.65%
+  );
+}
+
+.step-label {
+  border-left: 1px solid var(--Purple-60, #703bf7);
+}
+
+
+.prop{
+  border-bottom: 1px solid var(--Grey-15, #262626);
+background: linear-gradient(96deg, #262626 -26.82%, rgba(38, 38, 38, 0.00) 40.46%);
+}
+
+.search{
+  border-radius: 12px 12px 0 0;
+border: 1px solid var(--Grey-15, #262626);
+background: var(--Grey-08, #141414);
+box-shadow: 0 0 0 10px #191919;
+}
