@@ -68,7 +68,6 @@ export default function NavigatingExperience() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {steps.map((item) => (
             <div key={item.step}>
-              {/* Step Label - above the card */}
               <div className="step-label pl-4 py-3 mb-0">
                 <span className="text-white text-sm font-medium">
                   Step {item.step}

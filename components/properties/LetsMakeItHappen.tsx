@@ -62,7 +62,7 @@ const FormDropdown = ({
                 key={option}
                 onClick={() => {
                   onChange(option);
-                  onToggle(); // Close after selection
+                  onToggle();
                 }}
                 className="px-4 py-3 text-sm text-text-secondary hover:text-white hover:bg-[#262626] rounded-[4px] cursor-pointer transition-colors"
               >

@@ -31,7 +31,6 @@ export default function CTA() {
             />
           </div>
 
-          {/* Content - same pattern as navbar */}
           <div className="relative z-10 max-w-[1500px] mx-auto px-6 py-16 md:py-18 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
             <div className="max-w-3xl">
               <h2 className="text-[24px] md:text-[28px] lg:text-[30px] font-semibold text-white mb-4">

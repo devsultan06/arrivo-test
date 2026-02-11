@@ -4,25 +4,25 @@ import Image from "next/image";
 
 const features = [
   {
-    icon: "/images/unlock-icon-valuation.png", // Reusing as requested
+    icon: "/images/unlock-icon-valuation.png", 
     title: "Tenant Harmony",
     description:
       "Our Tenant Management services ensure that your tenants have a smooth experience and reducing vacancies.",
   },
   {
-    icon: "/images/unlock-icon-marketing.png", // Reusing as requested
+    icon: "/images/unlock-icon-marketing.png",
     title: "Maintenance Ease",
     description:
       "Say goodbye to property maintenance headaches. We handle all aspects of property upkeep.",
   },
   {
-    icon: "/images/unlock-icon-negotiation.png", // Reusing as requested
+    icon: "/images/unlock-icon-negotiation.png",
     title: "Financial Peace of Mind",
     description:
       "Managing property finances can be complex. Our financial experts take care of rent collection.",
   },
   {
-    icon: "/images/unlock-icon-closing.png", // Reusing as requested
+    icon: "/images/unlock-icon-closing.png", 
     title: "Legal Guardian",
     description:
       "Stay compliant with property laws and regulations effortlessly.",

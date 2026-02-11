@@ -29,7 +29,6 @@ const services = [
 export default function ServicesHero() {
   return (
     <section className="w-full">
-      {/* Hero Text Background - Reusing 'prop' class for gradient if desired, or just dark bg */}
       <div className="w-full prop border-b border-border/50">
         <div className="max-w-[1500px] mx-auto px-6 pt-16 md:pt-24 pb-48 md:pb-40">
           <h1 className="text-[28px] md:text-[38px] lg:text-[48px]  text-white mb-6">

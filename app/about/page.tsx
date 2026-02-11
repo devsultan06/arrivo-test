@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-[#141414] ">
       <Navbar />
-      <main className="pb-20">
+      <main className="">
         <AboutHero />
         <OurValues />
         <OurAchievements />
