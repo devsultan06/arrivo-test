@@ -176,11 +176,13 @@ export default function FAQ() {
               disabled={
                 activeIndex >=
                 totalSlides -
-                  (typeof window !== "undefined" && window.innerWidth >= 1024
-                    ? 3
-                    : window.innerWidth >= 640
-                      ? 2
-                      : 1)
+                  (typeof window !== "undefined"
+                    ? window.innerWidth >= 1024
+                      ? 3
+                      : window.innerWidth >= 640
+                        ? 2
+                        : 1
+                    : 1)
               }
               aria-label="Next slide"
             >
